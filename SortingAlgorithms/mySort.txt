@@ -1,0 +1,8 @@
+The sort that i decided to implement is called the shaker sort. It compares
+elements next to each other and based on which on it greater it swaps them
+accordingly. We iterate up the array of elements, and once we reach the top we
+iterate back down the array list, swapping elements along the way. This way the 
+Largest values are being sorted at the top of the array, and the smallest values
+are being sorted at the bottom of the array list. it loops according to size of
+the array. Since we have two loops within each other, the time complexity of this
+sort is O(n(squared)). At best it is O(N) and the space complexity is O(1).
